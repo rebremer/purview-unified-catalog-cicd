@@ -1,0 +1,9 @@
+{
+    "status": "Published",
+    "type": "LineOfBusiness",
+    "name": "Hospital",
+    "description": "<div>Overarching entity for hospital</div>",
+    "isRestricted": false,
+    "isStagingDomain": false,
+    "managedAttributes": []
+}

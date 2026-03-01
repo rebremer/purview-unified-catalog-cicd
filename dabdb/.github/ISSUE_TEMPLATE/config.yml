@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Microsoft Q&A
+    url: https://learn.microsoft.com/en-us/answers/tags/51/azure-sql-database
+    about: Please ask and answer questions about Azure SQL.

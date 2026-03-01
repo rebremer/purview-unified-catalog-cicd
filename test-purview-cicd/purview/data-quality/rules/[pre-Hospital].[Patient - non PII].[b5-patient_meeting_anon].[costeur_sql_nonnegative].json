@@ -1,0 +1,21 @@
+{
+    "name": "costeur_sql_nonnegative",
+    "description": "costeur cannot be negative",
+    "type": "CustomSQL",
+    "typeProperties": {
+        "condition": " cost_eur > 0",
+        "columns": [
+            {
+                "value": "cost_eur",
+                "type": "Column"
+            }
+        ],
+        "ruleDialect": "SparkSQL"
+    },
+    "status": "Active",
+    "dimension": "Accuracy",
+    "isClonedRule": false,
+    "filters": [
+        "_global"
+    ]
+}

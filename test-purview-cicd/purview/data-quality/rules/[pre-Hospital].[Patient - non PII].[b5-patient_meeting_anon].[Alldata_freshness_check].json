@@ -1,0 +1,14 @@
+{
+    "name": "Alldata_freshness_check",
+    "description": "Data is refreshed once per week",
+    "type": "Timeliness",
+    "typeProperties": {
+        "timeDifference": 604800000
+    },
+    "status": "Active",
+    "dimension": "Timeliness",
+    "isClonedRule": false,
+    "filters": [
+        "_global"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "status": "Published",
+    "type": "FunctionalUnit",
+    "name": "HR",
+    "description": "<div>HR Ajax</div>",
+    "isRestricted": false,
+    "isStagingDomain": false,
+    "managedAttributes": []
+}

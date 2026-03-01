@@ -1,0 +1,18 @@
+{
+    "status": "Published",
+    "type": "Dataset",
+    "name": "Patient - non PII",
+    "description": "<div>Non PII data of patients Feyenoord</div>",
+    "businessUse": "<div>Non PII of patients</div>",
+    "contacts": {
+        "owner": [
+            {
+                "id": "0ee66604-8010-4f00-bfbf-b8104502ab74",
+                "description": "Creator"
+            }
+        ]
+    },
+    "termsOfUse": [],
+    "documentation": [],
+    "endorsed": false
+}

@@ -2,3 +2,7 @@
 /myenv
 .env
 .venv
+old/
+myenv/
+.env/
+.venv/

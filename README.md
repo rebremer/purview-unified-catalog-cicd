@@ -1,5 +1,10 @@
 # CI/CD in Purview Unified Catalog
- Microsoft Purview is not built like a typical development environment. There's no "test" or "dev" instance you can spin up and throw away. Instead, everything lives in one tenant-level Purview account. That's fine for runtime metadata, but when you're working with design-time governance content, this can be challenging.
+ Microsoft Purview is not built like a typical development environment. There's no "test" or "dev" instance you can spin up and throw away. Instead, everything lives in one tenant-level Purview account. That's fine for runtime metadata, but when you're working with design-time governance content, this can be challenging. In this repo we discuss a mechanism that can add desing time artificats of Purview Unified Catalog to git source control and can then deploy across Purview logical domains. See also image below.
+
+![Purview Unified Catalog- CICD](Purview Unified Catalog- CICD.png)
+
+
+1. Purview Unified Catalog - source control and deployment from DEV to Tst/Prd - image by author
  
 The repo contains two sets of scripts that can help to build a CI/CD pipeline for Unified Catalog as follows:
 

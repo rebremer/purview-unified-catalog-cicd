@@ -18,3 +18,4 @@ Key principles behind the scripts are as follows:
 - For linking data products to data assets, a runtime-generated key is needed. These keys are specific to the Data Map and can differ between environments.
 - To avoid that linking data products needs technical that need to manually updated, the qualified name can be used, too. These qualified names are then used to look up the correct asset in the target environment before linking.
 
+Make sure that an .env file is had the credentials of a service principal and service principal has "Governance Domain Creators" rights in the Purview Unified Catalog settings. 
